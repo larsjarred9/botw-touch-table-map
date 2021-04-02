@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.containerr {
+    position: relative;
+}
+
+.containerr .btn {
+    position: absolute;
+    border-style: solid;
+    width:50px;
+    height: 50px;
+    border-radius:100%;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    border-color: #333;
+    opacity: 0.9;
+}
+
+.temp {
+    position: absolute;
+    background-color: #333;
+    color: white;
+    padding-right: 8px;
+    width: 100px;
+    opacity: 0.9;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+#hebra {
+    top: 500px;
+    left: 480px;
+}
+
+#jyga {
+    top: 1850px;
+    left: 380px;
+}
+#gerudotemp {
+        top: 2500px;
+        left: 450px;
+}
+#centralhyrule {
+    top: 1350px;
+    left: 1625px;
+}
+#faron {
+    top: 2250px;
+    left: 2525px;
+}
+#lanayru {
+    top: 1850px;
+    left: 3125px;
+}
+
+#gorokvulcano {
+    top: 550px;
+    left: 2500px;
+}
+#lipland {
+    top: 1050px;
+    left: 3125px;
+}
+#hyruleforest {
+    top: 550px;
+    left: 1750px;
+}
+#thundraplat {
+    top: 1050px;
+    left: 1000px;
+}
+
+.containerr .hamburger {
+    position: fixed;
+    border-radius:20%;
+    width: 150px;
+    opacity: 1;
+    top: 5vh;
+    left: 5vh;
+}
+
+.containerr .btn:hover {
+    background-color: #8e7652;
+    border-color: #8e7652;
+}
+.absolute {
+    position: absolute;
+}
+
+.dropdown-menu.show {
+    max-width: 90vh;
+    padding: 5px;
+}
+
+#rito {
+    top: 700px;
+    left: 480px;
+}
+
+#hyrulecastle {
+    top: 1050px;
+    left: 1625px;
+}
+#korok {
+    top: 650px;
+    left: 1925px;
+}
+#goron {
+    top: 550px;
+    left: 2300px;
+}
+
+#hyrulecity {
+    top: 1200px;
+    left: 1625px;
+}
+
+#tarrey {
+    top: 800px;
+    left: 3100px;
+}
+
+#zoras {
+    top: 1150px;
+    left: 2850px;
+}
+#hateno {
+    top: 2100px;
+    left: 2950px; 
+}
+#kakariko {
+    top: 1700px;
+    left: 2350px; 
+}
+#lurelin {
+    top: 2550px;
+    left: 2750px; 
+}
+#gerudo {
+    top: 2400px;
+    left: 380px;
+}
+
+
+/* Verberk Scrollbar */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
