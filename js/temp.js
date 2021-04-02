@@ -1,3 +1,4 @@
+// Fetch & display all weather locations
 fetch('https://api.openweathermap.org/data/2.5/weather?q=Whitehorse&units=metric&appid=7553f8b14fe53bb13b60b7403c8def72')
 .then(response => response.json())
 .then(data => {
